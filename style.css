@@ -1,0 +1,233 @@
+*{
+	margin:  0;
+	padding: 0;
+	font-family: forma-djr-micro, sans-serif;
+	font-weight: 400;
+    font-style: normal;
+}
+.header{
+	min-height:  100vh;
+	width 100%;
+	background-image: linear-gradient(rgba(29,57,88,.8),rgba(133,33,112,0.8)),url("Images/OCAD.jpg");
+
+	background-position: center;
+	background-size: cover;
+	position: relative;
+
+}
+nav{
+	display:  flex;
+	padding:  2% 6%;
+	justify-content:  space-between;
+	align-items:  center;
+}
+nav img{
+	width:  150px;
+
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+
+}
+.nav-links ul li{
+	list-style:  none;
+	display:  inline-block;
+	padding:  0px 12px;
+	position:  relative;
+
+}
+.nav-links ul li a{
+	color:  #fff;
+	text-decoration: none;
+	font-size: 13px;
+}
+.nav-links ul li::after{
+	content: '';
+	width:  0%;
+	height:  2px;
+	background:  #db222a;
+	display: block;
+	margin: auto;
+	transition:  0.5s;
+}
+.nav-links ul li:hover::after{
+	width:  100%;
+}
+.text-box{
+	width:  90%;
+	color:  #fff;
+	position:  absolute;
+	top:  30%;
+	left:  0%;
+	transform: translate(-50%.-50%);
+	text-align:  center;
+}
+.text-box h1{
+	font-size: 72px;
+	font-family: forma-djr-display, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.text-box p{
+	margin:  10px 0 40px;
+	font-size: 16px;
+	color:  #fff;
+}
+.hero-btn{
+	display: inline-block;
+	text-decoration: none;
+	color:  #fff;
+	border: 1px solid #fff;
+	padding: 12px 34px;
+	font-size:  14px;
+	background:  transparent;
+	position: relative;
+	cursor: pointer;
+}
+.hero-btn:hover{
+	border: 1px solid #ab2836;
+	background: #ab2836;
+	transition:  1s;
+
+}
+
+
+.code{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+h1{
+	font-size: 36px;
+	font-weight: 600;
+}
+p{
+	color:  #777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+.st-text-box{
+	width:  90%;
+	color:  #fff;
+	position:  absolute;
+	top:  15%;
+	left: 5%;
+	transform: translate(-50%.-50%);
+	text-align:  left;
+}
+.st-text-box h1{
+	font-size: 62px;
+	font-family: forma-djr-display, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.st-text-box p{
+	margin:  0px 0 40px;
+	font-size: 14px;
+	color:  #fff;
+}
+.card-col{
+	flex-basis:  32%;
+	border-radius:  10px;
+	margin-bottom:  30px;
+	position:  relative;
+	overflow:  hidden;
+}
+.card-col img{
+	width:  100%;
+}
+.layer{
+	background:  rgba(0,0,0,0.7);
+	height: 100%;
+	width: 100%;
+	position:  absolute;
+	top: 0;
+	left: 0;
+	transition: 0.5s;
+}
+h3{
+	text-align: center;
+	font-weight: 300;
+	margin: 10px 0;
+	text-decoration: none;
+}
+.row{
+	margin-top:  5%;
+	display: flex;
+	justify-content: space-between;
+}
+.layer:hover{
+	background:  transparent;
+}
+.ptitle{
+	width:  90%;
+	color:  #fff;
+	position:  absolute;
+	top:  2%;
+	left: 10%;
+	transform: translate(-50%.-50%);
+	text-align:  left;
+}
+.ptitle h2{
+
+	font-size: 36px;
+	font-weight: 600;
+	margin:  150px 0;
+}
+.ptitle h3{
+	
+}
+.ptitle p{
+	position:  absolute;
+	left: -3.5%;
+	margin:  30px 0 40px;
+	font-size: 16px;
+	color:  #ffff;
+}
+.stage1para{
+	position:  absolute;
+	left: -3%;
+	margin:  -130px 0 40px;
+	font-size: 16px;
+	color:  #ffff;
+}
+.imgref{
+top: 300%;
+}
+.projectheader{
+	min-height:  600vh;
+	width 100%;
+	background-color: rgba(20,20,20,1);
+
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.projectheaderbanner{
+
+	width 100%;
+	background-image: linear-gradient(rgba(29,57,88,.8),rgba(133,33,112,0.8)),url("Images/OCAD.jpg");
+
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.stage2para{
+	position:  absolute;
+	left: -3%;
+	margin:  -130px 0 40px;
+	font-size: 16px;
+	color:  #ffff;
+}
+.stage3para{
+	position:  absolute;
+	left: -3%;
+	top: 78%;
+	margin:  -1080px 0 40px;
+	font-size: 16px;
+	color:  #ffff;
+}
